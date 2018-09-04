@@ -101,10 +101,11 @@ textarea {
 .title-nav{
     font-family: 'Teko', sans-serif;
     font-size: 2.3em;
-    color: #5ab7de;
+    color: #38b6ec;
 }
 .title-nav span{
-    color: #ccc;    
+    color: rgb(255, 255, 255);    
+    font-family: 'Teko', sans-serif;
     font-size: 0.5em;
 }
 
@@ -113,17 +114,62 @@ textarea {
     text-decoration: none;
 }
 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.377);
+}
+.view .mask {
+    background-attachment: fixed;
+}
+.view .content, .view .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+}
 
-html {background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467);
+.fixed-top.scrolled {
+    background-color: rgb(0, 0, 0) !important;
+    transition: background-color 200ms linear;
+}
+
+.himg{
+    background: url(../img/navbar-1.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
+.himg2{
+    background: url(../img/navbar-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.himg3{
+    background: url(../img/navbar-3.jpg);
+    background-size: cover;
+    background-position: tops;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.mg{
+    height: 700px;
+}
 
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
+/* ============Content=============*/
+
+
 
 /* ==========================================================================
    Helper classes
