@@ -343,3 +343,17 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+.container-copyright{
+    background-color: rgb(10, 9, 9);
+  
+  }
+
+.fondo-footer{
+
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+  }
