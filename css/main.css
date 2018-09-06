@@ -372,3 +372,17 @@ textarea {
     color: white;   
     
   }
+
+.texto-centrado{
+     text-align: center; 
+}
+.cambioColor {color: black;}
+
+/* Definimos el color al pasar el mouse por encima */
+
+.cambioColor:hover {color: #38b6ec;}
+
+.fa-book-reader
+{
+    color: red;
+}
